@@ -1,0 +1,6 @@
+---
+- name: Good to go
+  hosts: all
+  tasks:
+   - name: Hello world
+     command: echo "Hello world"
